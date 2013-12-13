@@ -1,18 +1,41 @@
 # Object files
 *.o
-*.ko
 
 # Libraries
 *.lib
 *.a
 
 # Shared objects (inc. Windows DLLs)
-*.dll
 *.so
 *.so.*
 *.dylib
 
 # Executables
-*.exe
 *.out
 *.app
+servx
+
+# Temporary files
+*.d
+
+# Test files
+*stub*
+
+# Coredump files
+core*
+
+# Ctags file
+tags
+
+# CScope files
+cscope.*
+
+# Vim swap files
+*.swp
+
+# Hidden files
+.*
+*~
+
+# Enable .gitignore
+!.gitignore
